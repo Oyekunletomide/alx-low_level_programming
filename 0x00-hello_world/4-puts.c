@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
-*
 *main: Entry point, puts function
 *
 *Return: Always 0
-*
 */
 
 int main(void)
