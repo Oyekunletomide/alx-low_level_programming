@@ -5,13 +5,18 @@
 *
 * Return: 0 if successful
 */
+
 int main(void)
 {
-    	char alpha[] = "abcdfghijklmnoprstuvwxyz\n\0";
-	int i;
+	char letter;
 
-	for (i = 0; alpha[i] != '\0'; i++)
-		putchar(alpha[i]);
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
+
+	putchar('\n');
 
 	return (0);
 }
