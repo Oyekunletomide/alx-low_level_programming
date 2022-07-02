@@ -15,5 +15,5 @@ int main(void)
 		putchar(nums[i]);
 
 	return (0);
-	
+
 }
