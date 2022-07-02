@@ -7,12 +7,13 @@
 */
 int main(void)
 {
-	int num;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
+	char nums[] = "0123456789\n\0";
+	int i;
 
-		printf("\n");
+	for (i = 0; nums[i] != '\0'; i++)
+		putchar(nums[i]);
 
-		return (0);
+	return (0);
+	
 }
