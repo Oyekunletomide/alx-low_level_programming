@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * palindrome_checker - a helper function to recursively check if s is a
